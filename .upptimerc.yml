@@ -12,9 +12,9 @@ sites:
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
   - name: API endpoint
-    url: $API_ENDPOINT_URL
+    url: https://api.vapezone.pro # $API_ENDPOINT_URL
     headers:
-      - "Authorization: Bearer $API_BEARER_TOKEN"
+  #    - "Authorization: Bearer $API_BEARER_TOKEN"
       - "Content-Type: application/json"
       - "X-Request-Status: uptime"
 status-website:
