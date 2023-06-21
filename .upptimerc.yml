@@ -9,14 +9,10 @@ sites:
     url: $API_ENDPOINT_URL
   - name: Hacker News
     url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: API endpoint
-    url: https://api.vapezone.pro # $API_ENDPOINT_URL
-    headers:
-  #    - "Authorization: Bearer $API_BEARER_TOKEN"
-      - "Content-Type: application/json"
-      - "X-Request-Status: uptime"
+  - name: imap
+    url: imap.mail.ru
+    port: 465
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
